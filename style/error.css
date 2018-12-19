@@ -1,0 +1,53 @@
+
+body {
+	background: #d6371b; /* #8B1A1A */
+	
+}
+table {
+	margin-top: 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 24pt; /* Размер шрифта в пунктах */
+	/* font-variant: small-caps;  Устанавливаем капитель для заголовка */
+	font-weight: 100;
+	margin-top: 23px;
+	margin-left: 15px;
+}
+
+p {
+	color: #FFFFFF;
+	font-size: 12pt; /* Размер шрифта в пунктах */
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	/*line-height: 2;*/
+}
+
+h5 {
+	/*margin-top: 20px;*/
+	color: #c0c0c0;
+	font-size: 13pt; /* Размер шрифта в пунктах */
+	font-family: Courier, monospace;
+	font-weight: 100;
+	background: #000; /* 1C1C1C */
+	border: 1px solid #818181;
+	padding: 20px;
+}
+
+a,
+a:active,
+a:visited {
+	font-size: 11pt; /* Размер шрифта в пунктах */
+	color: #FFFFFF;
+	text-decoration: none;
+	/* border: 1px solid #FFF;*/
+	/*padding: 5px 10px 5px 10px;*/
+	/*background: #8B1A1A;*/
+}
+
+a:hover {
+	text-decoration: underline;
+	/*background: #8B2323;*/
+}

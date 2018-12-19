@@ -1,0 +1,9 @@
+# Вывод ошибок на экран 1 - показать, 0 - не показывать 
+php_flag display_errors 0
+php_flag display_startup_errors 0
+
+# Установка кодировки UTF-8
+AddDefaultCharset UTF-8
+
+# Перенаправление на страницы ошибок
+ErrorDocument 404 http://test.ru/index.php?error=404
